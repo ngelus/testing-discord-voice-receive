@@ -3,7 +3,11 @@ const path = require('path');
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
 
 require('dotenv').config();
-const { DISCORD_TOKEN: TOKEN } = process.env;
+const {
+  DISCORD_TOKEN: TOKEN,
+  DISCORD_CLIENT_ID: CLIENT_ID,
+  DISCORD_GUILD_ID: GUILD_ID,
+} = process.env;
 
 const client = new Client({
   intents: [
