@@ -1,0 +1,38 @@
+{
+  "name": "testing-discord-voice-receive",
+  "version": "1.0.0",
+  "description": "literally just testing if I can receive voice using a discord bot properly",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js",
+    "start": "node bot.js",
+    "deployCommands": "node deployCommands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngelus/testing-discord-voice-receive.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "voice",
+    "audio"
+  ],
+  "author": "ngelus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngelus/testing-discord-voice-receive/issues"
+  },
+  "homepage": "https://github.com/ngelus/testing-discord-voice-receive#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "ffmpeg-static": "^5.1.0",
+    "libsodium-wrappers": "^0.7.11",
+    "opusscript": "^0.0.8",
+    "sodium-native": "^4.0.2",
+    "tweetnacl": "^1.0.3"
+  }
+}
